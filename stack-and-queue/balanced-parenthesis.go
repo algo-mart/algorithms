@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func isBalanced(s string) string {
 	// Write your code here
 	if s == "" {
@@ -45,5 +47,5 @@ func isBalanced(s string) string {
 }
 
 func main() {
-
+	fmt.Println(isBalanced("(())"))
 }
