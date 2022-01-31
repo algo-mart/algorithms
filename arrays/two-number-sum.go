@@ -12,5 +12,20 @@ func TwoNumberSum(array []int, target int) []int {
 	}
 	return [] int{}
 }
+//optimized two-number-sum
+func TwoNumberSumOptimized(array []int, target int) []int {
+	// Write your code here.
+	myMap:= make(map[int]bool)
 
+	for i:=0; i<len(array); i++ {
+		number:= target-array[i]
+		if myMap[number] {
+			return [] int {array[i], number}
+		} else {
+			myMap[array[i]] = true
+		}
+
+	}
+	return []int{}
+}
 
