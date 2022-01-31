@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 // o-n-square
 func TwoNumberSum(array []int, target int) []int {
 	// Write your code here.
@@ -27,5 +29,10 @@ func TwoNumberSumOptimized(array []int, target int) []int {
 
 	}
 	return []int{}
+}
+
+func main() {
+	fmt.Println(TwoNumberSum( [] int {3,5,-4,8,11,1, -1, 6} , 10 ))
+	fmt.Println(TwoNumberSumOptimized( [] int {3,5,-4,8,11,1, -1, 6} , 10 ))
 }
 
