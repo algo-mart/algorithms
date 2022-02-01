@@ -47,5 +47,5 @@ func isBalanced(s string) string {
 }
 
 func main() {
-	fmt.Println(isBalanced("(())"))
+	fmt.Println(isBalanced("(())("))
 }
