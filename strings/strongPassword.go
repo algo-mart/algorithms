@@ -2,6 +2,10 @@ package main
 
 import "fmt"
 
+/*
+https://www.hackerrank.com/contests/hourrank-24/challenges/strong-password/problem
+ */
+
 func minimumNumber(n int32, password string) int32 {
 	// Return the minimum number of characters to make the password strong
 	countNum := 0
