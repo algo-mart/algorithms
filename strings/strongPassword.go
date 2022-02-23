@@ -45,5 +45,5 @@ func minimumNumber(n int32, password string) int32 {
 }
 
 func main() {
-	fmt.Println('1','9', 'a')
+	fmt.Println(minimumNumber(4, "1234"))
 }
