@@ -4,7 +4,9 @@ import (
 	"fmt"
 	"math"
 )
-
+/*
+https://leetcode.com/problems/sqrtx
+ */
 func mySqrt(x int) int {
 	left := 1
 	right := x
