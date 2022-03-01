@@ -30,5 +30,5 @@ func mySqrt(x int) int {
 
 
 func main() {
-	fmt.Println(mySqrt(20))
+	fmt.Println(mySqrt(10))
 }
