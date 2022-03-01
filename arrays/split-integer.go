@@ -27,3 +27,15 @@ func SplitInteger(num int, parts int) []int {
 	}
 
 }
+
+//20,17,14,11,8,4,0
+func SplitInteger4(num int, parts int) []int {
+	result := []int{}
+	for num>0{
+		splittedValue := num/parts
+		result=append(result, splittedValue)
+		num = num-splittedValue
+		parts--
+	}
+	return result
+}
