@@ -1,4 +1,5 @@
 package main
+
 /*
 https://www.codewars.com/kata/529e2e1f16cb0fcccb000a6b/
  */

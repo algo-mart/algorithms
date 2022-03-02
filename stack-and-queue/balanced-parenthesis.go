@@ -25,6 +25,7 @@ func isBalanced(s string) string {
 			store = append(store, str)
 		} else {
 			lastString := store[len(store)-1]
+			fmt.Println("here",lastString)
 			if str == ")" {
 				if lastString == "(" {
 					store = store[:len(store)-1]
@@ -40,6 +41,7 @@ func isBalanced(s string) string {
 			} else {
 				return "NO"
 			}
+			fmt.Println("here",lastString)
 		}
 	}
 
@@ -71,6 +73,7 @@ func mySqrt(x int) int {
 }
 
 func main() {
+	fmt.Println(isBalanced("((()))"))
 	//fmt.Println(isBalanced("(())("))
 	fmt.Println(mySqrt(10))
 }
