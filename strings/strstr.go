@@ -45,7 +45,7 @@ func strStr2(haystack string, needle string) int {
 "issip"
  */
 
-func strStr(haystack string, needle string) int {
+func strStr6(haystack string, needle string) int {
 	if needle == "" || haystack == needle {
 		return 0
 	}

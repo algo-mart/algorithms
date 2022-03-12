@@ -76,4 +76,5 @@ func main() {
 	fmt.Println(isBalanced("((()))"))
 	//fmt.Println(isBalanced("(())("))
 	fmt.Println(mySqrt(10))
+	fmt.Println(math.Min(-10000,3))
 }
