@@ -1,4 +1,4 @@
-package main
+package graph
 
 import "fmt"
 
@@ -7,5 +7,5 @@ func numUniqueEmails(emails []string) int {
 }
 
 func main() {
-	fmt.Println(numUniqueEmails([]string{"a@leetcode.com","b@leetcode.com","c@leetcode.com"}))
+	fmt.Println(numUniqueEmails([]string{"a@leetcode.com", "b@leetcode.com", "c@leetcode.com"}))
 }
